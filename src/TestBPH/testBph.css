@@ -1,0 +1,544 @@
+.parasection h2 {
+    font-family: 'CeraGRLight';
+    color: #4d4d4d;
+    text-align: center;
+}
+
+.tybspage .parasection span {
+    font-family: 'CeraGRBold';
+}
+
+.tybspage .parasection hr {
+    margin: 3% auto;
+    border: 0;
+    border-top: 0;
+    background-image: linear-gradient(to right, transparent, #621e66, transparent);
+    width: 60%;
+    height: 2px;
+}
+
+.checkheader {
+
+    background: #efe8ef;
+}
+
+.checkheader h1 {
+    text-align: center;
+    font-size: 44px;
+    color: #612166;
+    font-family: 'CeraGRBold';
+}
+
+.checkheader h4 {
+    font-family: 'CeraGRBold';
+    color: #4d4d4d;
+    font-size: 30px;
+}
+
+.checkinstructions span {
+    font-family: 'BebasNeue_0';
+    background: #612166;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.checkinstructions {
+    font-family: 'CeraGRLight';
+    font-size: 21px;
+    color: #404041;
+    margin-bottom: 4%;
+}
+
+.optionbox .box {
+    border: 1px solid #ffd89d;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
+
+.optionbox .box1 {
+    background: #fef5e5;
+    padding: 4% 0;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.optionbox .box p {
+    text-align: center;
+    font-family: 'CeraGRLight';
+    color: #491754;
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+.optionbox .radioboxrow .labelbox {
+    width: 35px;
+    height: 35px;
+    outline: 0;
+    margin: 0 4%;
+    display: inline-block;
+}
+
+.optionbox .labelbox p {
+    font-size: 10px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 35px;
+    margin-bottom: 5%;
+}
+
+.optionbox .box2 {
+    padding: 4%;
+    text-align: center;
+}
+
+
+.number {
+    padding: 0 0;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.optionbox .number:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    /* background: #000; */
+    width: 73%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-bottom: 2px dotted #491754;
+    top: 15px;
+    z-index: -1;
+}
+
+.optionbox .number button {
+    background: #491754;
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    outline: 0;
+
+    margin: 0 4%;
+    outline: 0;
+    border: none;
+    cursor: auto;
+}
+
+.radioboxrow {
+    padding: 0 0;
+    text-align: center;
+    margin: 5% -34px;
+    position: relative;
+}
+
+.optionbox .radioboxrow label {
+    background: #491754;
+    color: #fff;
+    border-radius: 0;
+    width: 35px;
+    height: 35px;
+    outline: 0;
+    margin: 0 4%;
+    outline: 0;
+    border: none;
+    cursor: auto;
+    position: relative;
+}
+
+.radioboxrow label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 35px;
+    left: 0;
+    height: 35px;
+    margin: 0;
+}
+
+.radioboxrow label .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 35px;
+    background-color: #eee;
+    border-radius: 0%;
+}
+
+.radioboxrow label:hover input~.checkmark {
+    background-color: #ccc;
+}
+
+.radioboxrow label input:checked~.checkmark {
+    background-color: #491754;
+}
+
+.quality h1 {
+    text-align: center;
+    font-family: 'CeraGRBold';
+    color: #491754;
+    font-weight: 600;
+    /* font-size: 19px; */
+    margin-bottom: 2%;
+}
+
+.quality .number button {
+    width: 10%;
+    background: transparent;
+    margin: 2%;
+    height: auto;
+}
+
+.box img {
+    height: 150px;
+    width: auto;
+}
+
+.optionbox .quality .number:before {
+    display: none !important;
+}
+
+.quality .box {
+    width: 100%;
+}
+
+.optionbox .quality .box4 .box {
+    border: 1px solid #491754;
+    padding-bottom: 0;
+}
+
+.optionbox .quality .box4 .box1 {
+    background: #e3d8e4;
+    margin-bottom: 0;
+    width: 70%;
+    float: left;
+}
+
+.optionbox .quality .box4 .boxscore {
+    width: 30% !important;
+    float: left;
+}
+
+.optionbox .quality .box1 {
+    background: #fef5e5;
+    padding: 1% 0;
+    height: auto;
+}
+
+.totalscore .outerbox .box1 {
+    width: 70%;
+    float: left;
+}
+
+.totalscore .outerbox .boxscore {
+    width: 30% !important;
+    float: left;
+}
+
+.scoresymptommeaningbox .score {
+    width: 40%;
+}
+
+.scoresymptommeaningbox .severity {
+    width: 50%;
+}
+
+.boxscore {
+    background: #fff !important;
+}
+
+.submit {
+    border-radius: 35px;
+}
+
+.totalscore .box .box1 {
+    height: auto;
+}
+
+.optionbox .totalscore .box p {
+    font-size: 25px !important;
+}
+
+.optionbox .totalscore h3 {
+    text-align: center;
+    font-family: 'CeraGRBold';
+    color: #491754;
+    margin: 0;
+}
+
+
+.optionbox .totalscore .meterbox {
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.optionbox .totalscore .indicator {
+    position: absolute;
+    top: -24px;
+    width: 66%;
+    margin: 18% auto;
+    right: 0;
+    left: 0;
+}
+
+
+.howsevere h1 {
+    font-family: 'CeraGRBold';
+    text-align: center;
+    color: #333333;
+    margin-bottom: 5%;
+}
+
+.scorenumber {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7a120;
+    color: #491754;
+    border-radius: 50%;
+}
+
+.symptomscore {
+    display: flex;
+    align-items: center;
+}
+
+.scoresymptommeaning h5 {
+    font-family: 'CeraGRBold';
+    font-weight: 600;
+}
+
+.scoredetails {
+    margin-left: 4%;
+    text-align: left;
+}
+
+.scoredetails h5 {
+    color: #491754;
+    font-family: 'CeraGRBold';
+}
+
+.scoredetails p {
+    font-family: 'CeraGRLight';
+    color: #4d4d4d;
+    margin: 0;
+    /* font-weight: 600; */
+    font-size: 15px;
+}
+
+.scoresymptommeaning button {
+    background: #f7a120;
+    color: #491754;
+    border-radius: 4px;
+    outline: 0;
+    border: 0;
+    width: 125px;
+    text-align: left;
+    padding: 4px 15px;
+
+}
+
+.scoresymptommeaning button h5 {
+    font-family: 'BebasNeue_0';
+}
+
+.scoresymptommeaning button h5,
+.severity h5 {
+    margin: 0;
+}
+
+.scoresymptommeaningbox {
+    margin-bottom: 2%;
+}
+
+.scoresymptommeaning .details p {
+    line-height: 150%;
+    color: #491754;
+    font-family: 'CeraGRLight';
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.scoresymptommeaning .details p a {
+    border: 1px solid #491754;
+    border-radius: 30px;
+    padding: 0.2% 5%;
+    color: #491754;
+    text-decoration: none;
+}
+
+.scoresymptommeaning .btn img {
+    height: 40px;
+    width: auto;
+}
+
+.summary h1 {
+    font-family: 'AcuminVariableConcept';
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+.summary button {
+    background: #491754;
+    font-family: 'AcuminVariableConcept';
+    color: #fff;
+    border: 0;
+    margin: 0 3% 5% 0;
+    width: 10%;
+    padding: 5px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.btnbox {
+    text-align: left;
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .parasection h2 {
+        font-size: 19px;
+    }
+
+
+
+    .checkheader h1 {
+        font-size: 27px;
+
+    }
+
+
+
+    .optionbox .box p {
+        font-size: 15px;
+
+    }
+
+    .optionbox .box p br {
+        display: none;
+    }
+
+    .box3,
+    .box4 {
+        width: 93%;
+        margin: 0 auto;
+    }
+
+
+    .optionbox .number button,
+    .radioboxrow label .checkmark,
+    .optionbox .radioboxrow label {
+        width: 25px;
+        height: 25px;
+    }
+
+    .quality button {
+        width: 30px !important;
+        height: auto !important;
+    }
+
+    .radioboxrow label input {
+        width: 25px;
+        height: 25px;
+    }
+
+    .optionbox .radioboxrow .labelbox {
+        margin: 0 2%;
+    }
+
+    .scorenumber {
+        width: 65px;
+        height: 65px;
+        margin-bottom: 5%;
+
+    }
+
+    .box img {
+        height: auto;
+        width: 100%;
+    }
+
+    .quality h1 {
+        font-size: 22px;
+        padding: 2% 0;
+    }
+
+
+
+    .quality .box4 {
+        margin: 0 15px;
+        width: 100%;
+    }
+
+    .quality .box4 .box {
+        width: 96%;
+        margin: 0 -2%;
+    }
+
+    .optionbox .quality .box4 .box1,
+    .outerbox .box1 {
+        width: 70%;
+
+    }
+
+    .bosmcore {
+        width: 30% !important;
+        background: #fff !important;
+    }
+
+    .optionbox .totalscore h3,
+    .howsevere h1 {
+        font-size: 18px;
+    }
+
+
+    .scoresymptommeaningbox .score {
+        width: 40%;
+    }
+
+    .scoresymptommeaningbox .severity {
+        width: 60%;
+    }
+
+
+
+    .quality .number button {
+
+        margin: 2% 1%;
+        width: 12.2% !important;
+
+
+    }
+
+
+    .scoresymptommeaning .btn img {
+        height: 28px;
+        width: auto;
+    }
+
+    .quality .box {
+
+        padding-bottom: 5%;
+    }
+}

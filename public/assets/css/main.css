@@ -1,0 +1,785 @@
+@font-face {
+   font-family: 'AcuminVariableConcept';
+   src: url('/assets/fonts/AcuminVariableConcept.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'BebasNeue_0';
+   src: url('/assets/fonts/BebasNeue_0.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+@font-face {
+   font-family: 'CeraGRBlackItalic';
+   src: url('/assets/fonts/CeraGRBlackItalic.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'CeraGRBold';
+   src: url('/assets/fonts/CeraGRBold.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'CeraGRBoldItalic';
+   src: url('/assets/fonts/CeraGRBoldItalic.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'CeraGRLight';
+   src: url('/assets/fonts/CeraGRLight.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+
+@font-face {
+   font-family: 'CeraGRMedium';
+   src: url('/assets/fonts/CeraGRMedium.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+@font-face {
+   font-family: 'MyriadPro-Bold_3';
+   src: url('/assets/fonts/MyriadPro-Bold_3.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0
+}
+
+.navbar-dark .navbar-toggler {
+      background: #621a67;
+}
+
+
+.navbar-brand img {
+    width: 200px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+}
+
+.navbar-dark 
+{
+	   min-height: 13vh;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+
+.navbar-brand
+{
+	   height: 13vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.navbar-default {
+       background-color: #fff;
+    border-color: #fff;
+        margin: 0;
+
+}
+
+header{
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar-nav>li {
+  background: #622465;
+  margin: 10px;
+
+}
+
+.navbar-nav>li {
+    margin-right: 0px;
+    
+
+}
+.navbar-nav>li>a {
+   color: #fff !important;
+   font-family: 'CeraGRBold';
+       font-size: 14px;
+       text-align: center;
+       padding: 10px;
+    font-style: italic;
+    display: block;
+    text-decoration: none !important;
+}
+
+
+.faq .sectiontitle{
+	   font-family: 'CeraGRLight';
+	   color: #631A67;
+     text-transform: capitalize;
+	 
+}
+
+.sectiontitle span{
+  font-family: 'CeraGRLight';
+  color: #631A67;
+  text-transform: uppercase;
+
+}
+.sectiontitle strong{
+    font-family: 'CeraGRBold';
+   
+}
+
+
+.banner  .carousel-caption {
+    right: 0;
+     left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    top: 0;
+    bottom: 0;
+}
+
+.banner .left h1
+{
+color: #06723B;
+font-family: 'CeraGRBlackItalic';
+margin:30% 0  0% 0;
+-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+figure.call {
+    position: relative;
+    top: -1px;
+}
+
+.banner .right{
+     padding-left: 8%;
+}
+.banner .right h1
+{
+  text-align: left;
+color: #622466;
+font-family: 'CeraGRBlackItalic';
+    margin: 28% 0 0% 0;
+}
+.banner .right h4
+{
+ 
+color: #06723B;
+ font-family: 'CeraGRBoldItalic';
+     -webkit-text-stroke: 1px #ffffff6e;
+
+}
+.banner .right h4 span
+{
+ 
+color: #622466;
+    font-family: 'CeraGRBlackItalic';
+    font-size: 120%;
+
+}
+
+.number{
+
+    margin-top: 14%;
+
+}
+
+.bottomimgs img{
+       margin:0 0 3% 0;
+      
+}
+
+.number{
+  text-align: right;
+  margin-right:12%;
+}
+.bottomimgs{
+  text-align: left;
+  margin: 17% 0 0 5%;
+  /* position: absolute; */
+  bottom: 0;
+
+}
+.number p{
+background: #631A67;
+    font-family: 'CeraGRBlackItalic';
+    padding: 6px;
+    border-radius: 5px 5px 0 0;
+    display: table-cell;
+}
+.number h3{
+background: #4ACD57;
+    font-family: 'CeraGRBlackItalic';
+    display: initial;
+    /* padding: 6px; */
+    border-radius: 0 10px 0 10px;
+    display: flex;
+    width: fit-content;
+    padding: 8px 20px 8px 6px;
+    border: 2px solid;
+
+}
+.number h3 .share{
+margin-left: 5%
+}
+.number h3 .check{
+  font-size: 36%;
+  margin-left: 5%
+}
+.whysuffer{
+  width: 85%;
+  margin-left: 15%;
+  position: relative;
+  top: 3%;
+}
+
+/*slick slider start*/
+ .slider {
+        width: 100%;
+        margin:0px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity:1;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+.slick-current.slick-active .arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #917094;
+  margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.content{
+   font-family: 'CeraGRLight';
+  background: #621f65;
+  color: #fff
+}
+
+.slick-next::before {
+    content:url('../images/right.png') ;
+}
+
+.slick-prev::before {
+    content:url('../images/left.png') ;
+    transform: rotate(-20deg);
+}
+
+.aboutbph h3
+{
+	   font-family: 'CeraGRMedium';
+	   color: #631A67;
+background-image: linear-gradient(to bottom , #CC9FC9, #917094);
+border-radius: 3px;
+font-size: 17px;
+
+}
+
+.topdrops img{
+ position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 99;
+
+}
+
+.purplebtn{
+  font-family: 'CeraGRLight';
+  color: #fff;
+  background-image: linear-gradient(to bottom , #5F2364, #431245);
+}
+
+.testyourbph button{
+  transform: translateY(-50%);
+  border-radius:35px
+}
+
+.downloads h3 {
+     font-family: 'CeraGRLight';
+    color: #000000;
+ }
+
+ .overlay-video {
+      position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video-play-button{
+     background: #00000080;
+    width: 45px;
+    display: flex;
+    height: 45px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.videothumbnail:hover .video-play-button{
+     background: #631A67;
+
+  }
+.findchemist h2, .washroomfinder h2{
+ font-family: 'CeraGRBold';
+   
+}
+.fc, .sl  {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .fc{
+    background: url(../images/fc.png)no-repeat center center;
+  
+  }
+
+    .sl{
+    background: url(../images/sl.png)no-repeat center center;
+      }
+
+  .fc button{
+    background: transparent;
+  }
+
+  .sl .input-group{
+border: 1px solid #fff;
+    border-radius: 5px;
+  }
+
+    .sl .input-group input{
+color: #fff
+  }
+
+  .washroomfinder{
+     background: url(../images/wf.png)no-repeat center center;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+  height: 300px;
+  
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+
+  .wficon {
+    width: 17%;
+
+  }
+
+  
+  .washroomfinder .input-group,   .fc .input-group,  .sl .input-group, .videothumbnail  {
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .diagnostics
+{
+  background: #F6EEF6
+}
+.diagnostics button {
+    border-radius: 35px;
+    transform: translateY(50%);
+        position: relative;
+    z-index: 99;
+}
+
+.bluebtn{
+
+  background: #24324E
+}
+.bluehr{
+    transform: translateY(-50%);
+  border-top: 2px solid #96D9C9;
+}
+.dc1 .bluehr{
+         position: relative;
+    left: 15px;
+
+}
+
+.dc2 .bluehr{
+         position: relative;
+    right: 15px;
+
+}
+
+.downloadapp h1
+{
+  color: #631A67;
+      font-family: 'CeraGRLight';
+}
+
+.downloadapp button{
+  width: 16%
+}
+
+.faq{
+  background: #F6EEF6
+}
+
+.card-header a{
+   font-family: 'CeraGRBold';
+   color: #000000
+}
+
+.card-body{
+        font-family: 'CeraGRLight';
+}
+
+footer{
+  background: #1D76BB;
+  color: #fff
+}
+
+
+
+footer p {
+padding-left: 3rem 
+  
+}
+
+.tab1img{
+  width: 80%;
+  margin: 15% auto 0;
+}
+.mb3 .imgbox img{
+  width: auto;
+  height: 100px;
+}
+.carousel-control-next, .carousel-control-prev {
+   z-index: 999;
+}
+
+#bphfacts p
+{
+  font-size: 75%;
+}
+.deskdisplay{
+  display: block;
+}
+.mobdisplay{
+  display: none;
+}
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 9999;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar-dark {
+    height: 8vh;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 155px;
+}
+
+.navbar-nav>li>a {
+    font-size: 10px;
+
+    padding: 4px;
+ 
+}
+
+.banner .left h1, .banner .right h1 {
+     font-size: 23px;
+}
+
+.banner .right h4 {
+    font-size: 18px;
+}
+
+.slick-current.slick-active .arrow-down {
+    top: -5px;
+    position: relative;
+}
+.findchemist h2, .washroomfinder h2 {
+    font-size: 122%;
+}
+
+.lybraelogo{
+  width: 40% !important;
+}
+.downloadapp h1 {
+    font-size: 23px;
+}
+footer .container{
+      align-items: center;
+}
+
+#bphfacts p
+{
+  font-size:inherit;
+  text-align: left;
+
+}
+.aboutbph h1{
+  font-size: 26px;
+}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  header{
+    position: relative;
+    z-index: 999999;
+}
+.deskdisplay{
+  display: none;
+}
+.mobdisplay{
+  display: block;
+}
+
+
+.navbar-brand img {
+    width: 115px;
+}
+.navbar-dark {
+  min-height: 8vh;
+ }
+  /* .navbar-nav>li>a br{
+    display: none;
+  } */
+
+.navbar-dark .navbar-brand {
+    margin-left: 10px;
+  }
+  .navbar-dark .navbar-toggler {
+     margin-right: 10px;
+}
+.navbar-brand {
+   height: 8vh;
+}
+.navbar-dark
+{
+      padding: 0;
+}
+
+.navbar-collapse
+{
+      background: #fff;
+}
+.navbar-nav>li>a {
+    font-size: 15px;
+}
+
+.navbar-nav>li {
+      margin: 0px 0 5px 0;
+}
+
+.banner{
+  background: #0D723C;
+}
+
+.banner .bottomcaption h4 {
+  color: #fff;
+  font-family: 'CeraGRBoldItalic';
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10% !important;
+}
+
+.bottomimgs{
+  background: #632466;
+}
+.banner .bottomcaption span
+{
+  font-family: 'CeraGRBlackItalic';
+    font-size: 120%;
+}
+.carousel-item .mobdisplay .carousel-caption .left{
+width: 50%;
+float: left;
+text-align: left;
+
+}
+.carousel-item .mobdisplay .carousel-caption  h1
+{
+  font-size: 25px;
+      -webkit-text-stroke-width:0px;
+}
+.carousel-item .mobdisplay .carousel-caption .right{
+  width: 50%;
+  float: right;
+  text-align: left;
+  }
+  .carousel-item .mobdisplay .carousel-caption .right h1{
+    margin-top: 100%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff9e;
+    float: right;
+  }
+.banner .carousel-caption {
+    right: 5%;
+    left: 5%;
+    padding-top: 8vh
+  }
+.banner .left h1, .banner .right h1 {
+    font-size: 15px;
+}
+.banner .left, .banner .right{
+  width: 50%;
+
+}
+.banner .left h1, .banner .right h1 {
+    margin: 5% 0 0% 0;
+    }
+    .bottomimgs {
+      margin-top: 0;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      position: relative;
+    z-index: 99;
+  }
+  .bottomimgs  .callimg{
+    width: 40%;
+    margin-top: -12%;
+    position: relative;
+    z-index: 99;
+  }
+  .bottomimgs .popimg{
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  .bottomimgs .popimg img{
+    width: 46%;
+    margin: 0 2%;
+  }
+  .carousel-indicators {
+      display: none;
+}
+.number p {
+     font-size: 6px;
+}
+    .banner .right h4 {
+    font-size: 10px;
+}
+.sectiontitle h1{
+    font-size: 25px;
+  }
+
+
+
+.testyourbph button {
+    transform: translateY(-42%);
+    width: 38%;
+    font-size: 12px;
+  padding: 3px;
+}
+
+.downloadapp button {
+    width: 38%;
+    position: relative;
+    top: 21px;
+}
+
+footer .container {
+  
+    display: block !important;
+  
+}
+footer figure {
+  text-align: center;
+  
+}
+footer p {
+padding-left: 0;
+text-align:center;
+  
+}
+
+.aboutbph .mainimg  {
+  width: 70%;
+  margin: 0 15%;
+}
+
+.tab1img {
+  width: 58%;
+  margin: 15% auto 0;
+}
+
+
+.splocator{
+  margin: 10px 0;
+}
+
+}

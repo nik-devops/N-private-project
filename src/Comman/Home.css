@@ -1,0 +1,29 @@
+.modal h4 {
+    font-family: 'CeraGRMedium';
+    color: #631A67;
+}
+
+.modal .purplebtn:hover {
+    color: #fff;
+}
+
+.modalclose {
+    background: #622465;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 23px;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    opacity: 1;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .modalclose {
+        right: 15px;
+        top: -5px;
+    }
+}
